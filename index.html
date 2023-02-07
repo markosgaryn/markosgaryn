@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--------Encabezado-------->
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#about">Acerca de mí</a></li>
+            <li><a href="#portfolio">Servicios</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+        <a href="#contact" class="h-btn">Hablemos</a>
+    </header>
+
+    <!--------Principal-------->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h4>Hola, mi nombre es</h4>
+            <h1>Gastón <span>Torres</span></h1>
+            <h3>Soy Desarrollador Web</h3>
+            <div class="newslatter">
+                <form>
+                    <input type="email" name="email" id="mail" placeholder="Ingresar Email">
+                    <input type="submit" name="submit" value="Comencemos">
+                </form>
+
+            </div>
+
+        </div>
+        
+    </section>
+
+    <!--------Acerca De Mí-------->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./img/about.jpg" alt="acerca de mí">
+            <img id="myImage" src="./img/mi-cv.png" alt="acerca de mí">
+        </div>
+
+        <div class="about-text">
+            <h2>Acerca De Mí</h2>
+            <h5>Desarrollador <Span> & Diseñador</Span></h5>
+            <p>Soy un desarrollador web front-end. Puedo proporcionar un código
+                limpio y un diseño bonito. También hago que el sitio web sea cada vez más interactivo
+                con animaciones web. Conocimientos de HTML, CSS y JavaScript. Soy un desarrollador web front-end. Puedo proporcionar un código
+                limpio y un diseño bonito. También hago que el sitio web sea cada vez más interactivo
+                con animaciones web. Conocimientos avanzados de HTML, CSS y JavaScript.</p>
+                <a href="#contact" type="button" class="btn" data-download="myImage">Descargar CV</a>
+
+        </div>
+    </section>
+
+   
+    <!--------Portofolio-------->
+    <section class="portfolio" id="portfolio">
+        <div class="center">
+            <h2>Mi Portfolio</h2>
+            <p>Diseños bonitos para publicitar tus nuevos empredendimientos. También hago <br> que el sitio sea cada vez más interactivo. </p>
+        </div>
+
+        <div class="portfolio-content">
+            <div class="box">
+                <a href="./img/one.jpg" target="_blank"><img src="./img/one.jpg" alt=""></a>
+                <p>Diseño Web</p>
+                <h5>Servicio ofrecido por el diseñador</h5>
+            </div>
+
+            <div class="box">
+                <a href="./img/two.jpg" target="_blank"><img src="./img/two.jpg" alt=""></a>
+                <p>Diseño Web</p>
+                <h5>Servicio ofrecido por el diseñador</h5>
+            </div>
+            
+            <div class="box">
+                <a href="./img/three.jpg" target="_blank"><img src="./img/three.jpg" alt=""></a>
+                <p>Diseño Web</p>
+                <h5>Servicio ofrecido por el diseñador</h5>
+            </div>
+
+            <div class="box">
+                <a href="./img/four.jpg" target="_blank"><img src="./img/four.jpg" alt=""></a>
+                <p>Diseño Web</p>
+                <h5>Servicio ofrecido por el diseñador</h5>
+            </div>
+
+            <div class="box">
+                <a href="./img/five.jpg" target="_blank"><img src="./img/five.jpg" alt=""></a>
+                <p>Diseño Web</p>
+                <h5>Servicio ofrecido por el diseñador</h5>
+            </div>
+
+            <div class="box">
+                <a href="./img/six.jpg" target="_blank"><img src="./img/six.jpg" alt=""></a>
+                <p>Diseño Web</p>
+                <h5>Servicio ofrecido por el diseñador</h5>
+            </div>
+        </div>
+    </section>
+
+    <!--------Contacto-------->
+    <section class="contact" id="contact">
+        <div class="contact-form">
+            <h2>Contrátame</h2>
+            <p>Desarrollador freelance. Contáctame por Whatsapp +54379-4000000 o por
+                email: markitosgaryn@gmail.com</p>
+                <form action="">
+                    <input type="" placeholder="Tu Nombre" required>
+                    <input type="email" name="" id="" placeholder="Tu Email" required>
+                    <input type="" placeholder="Asunto" required>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                    <input type="submit" name="" value="Enviar" class="btn">
+                </form>
+        </div>
+        
+        <div class="contact-img">
+            <img src="./img/contact.jpg" alt="">
+        </div>
+    </section>
+
+    <!--------Pie De Página-------->
+    <div class="footer">
+        <p>Página Web para examen de Argentina Programa 4.0</p>
+    </div>
+
+    <!--------JavaScript-------->
+    <script src="./js/script.js"></script>
+    
+</body>
+</html>
+
+<!--
+    git init
+    git remote add origin (mas link github)
+    git status (para ver los archivos que han sido subidos)
+    git add index.html (para subir archios individulmente)
+    git add . (para subir todos los archivos)
+    
+-->
+
